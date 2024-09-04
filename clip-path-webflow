@@ -1,0 +1,27 @@
+<svg class="clippy">
+    <defs>
+        <clipPath id="quarter" clipPathUnits="objectBoundingBox">
+            <path d="M0 0.00052H0.4931L0.4929 0.9994C0.3621 0.9994 0.2367 0.8942 0.1444 0.7070C0.0519 0.5196 0 0.2654 0 0.00052Z
+                     M0.5064 0H0.9997V1H0.5064V0Z" />
+        </clipPath>
+    </defs>
+</svg>
+
+<style>
+
+.header-img-clip {
+
+    clip-path: url(#quarter);
+}
+
+svg.clippy {
+
+position: absolute;
+top: -999px;
+left: -999px;
+width: 0;
+height: 0;
+
+}
+
+</style>
